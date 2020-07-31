@@ -1,0 +1,27 @@
+{
+  "name": "seeddb-backend",
+  "version": "1.0.0",
+  "description": "A simple Database for storing Seed's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wastl89/seeddb-backend.git"
+  },
+  "author": "S. Ratajczak",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/wastl89/seeddb-backend/issues"
+  },
+  "homepage": "https://github.com/wastl89/seeddb-backend#readme",
+  "dependencies": {
+    "mongoose": "^5.9.26",
+    "mongoose-string-query": "^0.2.7",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2",
+    "restify-plugins": "^1.6.0"
+  }
+}
